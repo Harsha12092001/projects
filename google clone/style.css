@@ -1,0 +1,82 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+    
+}
+
+.navbar{
+    display:flex;
+	align-items:center;
+	padding:20px;
+}
+nav{
+	flex:1;
+	text-align:right;
+}
+nav ul{
+	display:inline-block;
+	list-style-type:none;
+}
+nav ul li{
+	display:inline-block;
+	margin-right:20px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+img{
+    margin-right: 20px;
+}
+.but{
+    background-color: green;
+    border: none;
+    border-radius: 50%;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    color: white;
+}
+.google{
+    padding-top: 60px;
+    width:350px;
+}
+.box{
+   
+    align-items: center;
+    background-color:white;
+    display: flex;
+    width: 500px;
+    height: 50px;
+    border-radius: 55px;
+    box-shadow: 6px 6px 10px -1px rgba(0,0,0,0.15),
+                -6px -6px 10px -1px rgba(255,255,255,0.7)
+
+}
+.searchicon{
+    width:50px;
+    background: grey;
+    cursor: pointer;
+}
+.input{
+    
+    width: 500px;
+    border: none;
+    background: transparent;
+}
+.add{
+    background-color:lightgrey;
+    border: none;
+    border-radius: 50%;
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 15px;
+    color:black;
+    align-items: center;
+    font-size: 15px;
+   
+    
+}
